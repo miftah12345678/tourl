@@ -29,6 +29,26 @@
     <input type="file" id="fileInput" accept="image/*">
     <div class="url-container" id="urlContainer"></div>
     <img id="imagePreview" alt="Preview Gambar" style="display:none;">
+    </div>
+           <p class="text-sm text-gray-500 mt-2">Tips: Change to QR Code, Use <a href="https://toqr.hamstore.me"
+               class="text-blue-500" rel="nofollow">QR Code Hams</a></p>
+     <div class="credit">Designed by
+                    <a href="https://wa.me/6282117696469?text=aallooowww Bang Hammmm💗" class="text-blue-500">Ham</a>
+                </div>
+                </p>
+                <div class="btn-wrap">
+                <a href="https://www.instagram.com/ughbmm" type="submit" class="w-auto bg-purple-500 hover:bg-purple-700 rounded-lg shadow-xl font-medium text-white px-4 py-2">INSTAGRAM</a>
+                </div>
+                    <button id="downloadButton"
+                        class="w-auto bg-gray-500 hover:bg-gray-700 rounded-lg shadow-xl font-medium text-white px-4 py-2"
+                        style="display: none;">Download</button>
+                </div>
+
+                <div class="flex items-center justify-center w-full mt-5">
+                    <canvas id="canvas" width="1024" height="1080" style="display:none;"></canvas>
+                    <img id="generatedImage" src="" alt="Generated Image" class="max-w-xs h-auto rounded-lg shadow-xl"
+                        style="display: none;">
+                </div>
 
     <script>
         const fileInput = document.getElementById('fileInput');
